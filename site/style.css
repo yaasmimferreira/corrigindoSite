@@ -1,0 +1,214 @@
+body {
+    font-family: 'Concert One';
+    margin: 0;
+    padding: 0;
+}
+
+body img {
+    height: 50%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    height: 70px;
+    padding: 0 20px;
+}
+
+header h1 {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    margin: 25px;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    font-family: 'Concert One';
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.hero {
+    background-image: url(Imagem-2-Enem-2018-segredo-das-redações-e-entenda-as-cinco-competências.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+}
+
+.hero-text {
+    text-align: center;
+    margin: 40px auto;
+   
+}
+
+.hero-text h2 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+
+.hero-text p {
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: rgba(255, 255, 255, 0.829);
+}
+    
+
+.btn-hero {
+    background-color: #e6e2e2;
+    color: #000000;
+    font-size: 26px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Concert One';
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.btn-hero:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #9ba97396;
+}
+
+ h2 {
+    font-size: 45px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    color: #000000;
+    margin: 5px 30px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about img{
+    height: auto;
+    left: 70px;
+    margin: 100px 20px;
+   
+}
+
+.about ul {
+    margin: 10px 100px;
+    padding: 0;
+    display: grid;
+}
+
+.about li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
+.about li:hover{
+    background-color: #0f8127;
+    color: #fff;
+}
+
+.pricing {
+    padding: 50px 20px;
+    background-color:  #a0edb0;;
+
+}
+
+.pricing .curso :hover {
+    background-color: #32ce3f;
+    color: #111111;
+}
+
+.pricing ul {
+    display: grid;
+}
+
+.pricing li {
+    font-size: 20px;
+    display: inline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+.pricing h6{
+    font-size: 25px;
+    font-family: 'Concert One';
+    text-align: right;
+    margin: 30px;
+}
+
+.pricing .curso{
+    margin: 8px 40px;
+    background-color: #fffcfcc0;
+    border-radius: 10px;
+    
+}
+
+.pricing h3{
+    font-size: 30px;
+    font-family: 'Concert One';
+    color: #0f8127;
+    margin: 20px;
+}
+
+.pricing p {
+    font-size: 20px;
+    margin-bottom: 19px;
+    text-align: right;
+    margin: 24px;
+}
+
+.btn-pricing {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-pricing:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
